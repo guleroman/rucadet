@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: example
+Version: 0.1.0
+Summary: An example app
+Home-page: https://github.com/hmajid2301/medium/tree/feature/using-sql/7.%20Multi%20Docker%20Container%20with%20Nginx,%20Flask%20and%C2%A0MySQL
+Author: Haseeb Majid
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Flask example
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: ~=3.6
