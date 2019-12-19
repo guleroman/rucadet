@@ -4,8 +4,7 @@ from flask_sslify import SSLify
 
 app = Flask(__name__)
 
-context = ('web.crt', 'web.key')
-sslify = SSLify(app)
+
 
 @app.route('/')
 def dash_overview():
