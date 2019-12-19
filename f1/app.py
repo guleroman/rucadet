@@ -15,5 +15,5 @@ def dash_overview_2():
 	return render_template('index.html')
 
 if __name__ == '__main__':
-	context = ('web.crt', 'web.key')
-    app.run(ssl_context = context)
+	#context = ('web.crt', 'web.key')
+    app.run(host='0.0.0.0', port=80)#ssl_context = context)
