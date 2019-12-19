@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, json, make_response, send_file,render
 from flask_sslify import SSLify
 
 from OpenSSL import SSL
-context = SSL.Context(SSL.PROTOCOL_TLSv1_2)
+context = SSL.Context(SSL.OP_NO_SSLv3)
 context.use_privatekey_file('web.key')
 context.use_certificate_file('web.crt')
 
